@@ -17,15 +17,14 @@
   - type: MeleeSound
     soundGroups:
       Brute:
-        path:
-          "/Audio/Effects/glass_hit.ogg"
+        collection: GlassSmash
   - type: WallMount
     direction: 180
     arc: 180
   - type: SignalSwitch
     state: true
   - type: Sprite
-    drawdepth: Objects
+    drawdepth: AboveFovOverlay
     sprite: SS220/Structures/Wallmounts/onair_sign.rsi
     layers:
     - state: on

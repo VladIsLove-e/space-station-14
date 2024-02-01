@@ -2,12 +2,16 @@
   id: TegCenter
   name: thermo-electric generator
   description: A high efficiency generator that uses energy transfer between hot and cold gases to produce electricity.
-  parent: BaseMachinePowered
+  parent: [BaseMachinePowered, ConstructibleMachine ] #ss220 building TAG through a board
+  suffix: Unanchored
   placement:
     mode: SnapgridCenter
   components:
+    - type: Physics
+      bodyType: Dynamic
     - type: Transform
       noRot: false
+      anchored: false
     - type: Sprite
       sprite: Structures/Power/Generation/teg.rsi
       layers:
@@ -19,7 +23,7 @@
           shader: unshaded
           visible: false
           map: [ "enum.TegVisualLayers.PowerOutput" ]
-    - type: GenericVisualizer
+    - type: GenericVisualizer 
       visuals:
         enum.PowerDeviceVisuals.Powered:
           enum.PowerDeviceVisualLayers.Powered:
@@ -39,6 +43,8 @@
             9: { visible: true, state: teg-op9 }
             10: { visible: true, state: teg-op10 }
             11: { visible: true, state: teg-op11 }
+    - type: Machine #ss220 building TAG through a board
+      board: Thermoelectricgenerator #ss220 building TAG through a board
 
     - type: Anchorable
     - type: Pullable
@@ -51,6 +57,11 @@
         teg:
           !type:TegNodeGenerator
           nodeGroupID: Teg
+    - type: PowerMonitoringDevice
+      group: Generator
+      loadNode: output
+      sprite: Structures/Power/Generation/teg.rsi
+      state: static
     - type: Rotatable
 
     # Note that only the TEG center is an AtmosDevice.
@@ -93,17 +104,25 @@
         path: /Audio/Ambience/Objects/vending_machine_hum.ogg
     - type: GuideHelp
       guides: [ TEG, Power ]
+    - type: StealTarget
+      stealGroup: Teg
 
 - type: entity
   id: TegCirculator
   name: circulator
   description: Passes gas through the thermo-electric generator to exchange heat. Has an inlet and outlet port.
-  parent: BaseMachine
+  parent: [BaseMachinePowered, ConstructibleMachine ] #ss220 building TAG through a board
+  suffix: Unanchored
   placement:
     mode: SnapgridCenter
   components:
+    - type: Physics
+      bodyType: Dynamic
     - type: Transform
       noRot: false
+      anchored: false
+    - type: Machine #ss220 building TAG through a board
+      board: ThermoelectricgeneratorTurbine #ss220 building TAG through a board
 
     # visuals
     - type: Sprite
@@ -170,6 +189,8 @@
 
     - type: AtmosUnsafeUnanchor
     - type: TegCirculator
+    - type: StealTarget
+      stealGroup: Teg
 
 - # Spawned by the client-side circulator examine code to indicate the inlet/outlet direction.
   type: entity

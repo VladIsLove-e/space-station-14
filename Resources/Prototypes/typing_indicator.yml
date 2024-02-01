@@ -39,5 +39,11 @@
 - type: typingIndicator
   id: spider
   typingState: spider0
-  idleState: spider1
+  idleState: spider3 # Corvax-TypingIndicator
+  offset: 0, 0.125
+
+- type: typingIndicator
+  id: slime
+  typingState: slime0
+  idleState: slime3 # Corvax-TypingIndicator
   offset: 0, 0.125

@@ -6,11 +6,10 @@
   - type: MeleeSound
     soundGroups:
       Brute:
-        path:
-          "/Audio/Effects/glass_hit.ogg"
+        collection: GlassSmash
   - type: WallMount
   - type: Sprite
-    drawdepth: Objects
+    drawdepth: AboveFovOverlay
     sprite: SS220/Structures/Wallmounts/studio_sign.rsi
     layers:
     - state: base

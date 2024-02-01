@@ -7,11 +7,10 @@
   - type: MeleeSound
     soundGroups:
       Brute:
-        path:
-          "/Audio/Effects/glass_hit.ogg"
+        collection: GlassSmash
   - type: WallMount
   - type: Sprite
-    drawdepth: Objects
+    drawdepth: AboveFovOverlay #SS220 Perpective-wall-fov
     sprite: Structures/Wallmounts/barsign.rsi
     state: empty
   - type: ApcPowerReceiver

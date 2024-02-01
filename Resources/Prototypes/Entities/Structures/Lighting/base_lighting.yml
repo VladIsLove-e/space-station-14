@@ -10,11 +10,17 @@
   description: "An always powered light."
   suffix: Always powered
   components:
+  - type: BloomLightMask # SS220 Grafon-Light
+    lightMasks:
+    - sprite: "SS220/BloomLight/Masks/lightmask_lamp.png"
+      modulate: "#FFFFFF90"
+    - sprite: "SS220/BloomLight/Masks/tube_short.png"
+      modulate: "#FFFFFF80"
+      useShader: false
   - type: MeleeSound
     soundGroups:
       Brute:
-        path:
-          "/Audio/Effects/glass_hit.ogg"
+        collection: GlassSmash
   - type: Transform
     anchored: true
   - type: Clickable
@@ -26,12 +32,16 @@
     sprite: Structures/Wallmounts/Lighting/light_tube.rsi
     drawdepth: WallMountedItems
     layers:
-    - state: on
-      map: ["enum.PoweredLightLayers.Base"]
-    state: on
+    - map: ["enum.PoweredLightLayers.Base"]
+      state: base
+    - map: ["enum.PoweredLightLayers.Glow"]
+      state: glow
+      shader: unshaded
+    state: base
   - type: PointLight
-    radius: 10
+    color: "#FFE4CE" # 5000K color temp
     energy: 0.8
+    radius: 10
     softness: 1
     offset: "0, -0.5"
   - type: Damageable
@@ -45,6 +55,9 @@
       behaviors: #excess damage, don't spawn entities.
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
     - trigger:
         !type:DamageTrigger
         damage: 50
@@ -57,6 +70,9 @@
             max: 2
       - !type:DoActsBehavior
         acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
   placement:
     mode: SnapgridCenter
     snap:
@@ -98,6 +114,12 @@
   - type: PoweredLightVisuals
     blinkingSound:
       path: "/Audio/Machines/light_tube_on.ogg"
+    spriteStateMap:
+      empty: empty
+      off: base
+      on: base
+      broken: broken
+      burned: burned
 
 - type: entity
   id: Poweredlight
@@ -106,7 +128,7 @@
   parent: PoweredlightEmpty
   components:
   - type: Sprite
-    state: off
+    state: base
   - type: PointLight
     enabled: true
   - type: PoweredLight
@@ -152,6 +174,8 @@
   suffix: Blue
   parent: Poweredlight
   components:
+  - type: BloomLightMask # SS220 Grafon-Light
+    useLightColor: true
   - type: PoweredLight
     hasLampOnSpawn: ExteriorLightTube
     damage:
@@ -181,6 +205,8 @@
     damage:
       types:
         Heat: 5
+  - type: BloomLightMask # SS220 Grafon-Light
+    useLightColor: true
 
 - type: entity
   parent: AlwaysPoweredWallLight
@@ -201,6 +227,12 @@
   suffix: Always Powered
   parent: AlwaysPoweredWallLight
   components:
+    - type: BloomLightMask # SS220 Grafon-Light
+      lightMasks:
+      - sprite: "SS220/BloomLight/Masks/lightmask_lamp.png"
+      - sprite: "SS220/BloomLight/Masks/bulb_short.png"
+        modulate: "#FFE4CEFF"
+        useShader: false
     - type: AmbientSound
       volume: -15
       range: 2
@@ -208,7 +240,7 @@
         path: /Audio/Ambience/Objects/light_hum.ogg
     - type: Sprite
       sprite: Structures/Wallmounts/Lighting/light_small.rsi
-      state: on
+      state: base
     - type: PointLight
       energy: 1.0
       radius: 6
@@ -272,6 +304,12 @@
     range: 200
   - type: Appearance
   - type: PoweredLightVisuals
+    spriteStateMap:
+      empty: empty
+      off: base
+      on: base
+      broken: broken
+      burned: burned
   - type: DeviceLinkSink
     ports:
       - On
@@ -284,7 +322,7 @@
   parent: PoweredSmallLightEmpty
   components:
   - type: Sprite
-    state: off
+    state: base
   - type: PointLight
     enabled: true
   - type: PoweredLight
@@ -301,6 +339,8 @@
   parent: AlwaysPoweredWallLight
   suffix: ""
   components:
+  - type: BloomLightMask # SS220 Grafon-Light
+    enabled: false
   - type: PointLight
     enabled: false
     radius: 5

@@ -6,6 +6,7 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: FoVOverlay # SS220 perspective-wall-fov
   - type: InteractionOutline
   - type: Sprite
     sprite: Structures/Doors/Airlocks/highsec/highsec.rsi
@@ -57,6 +58,7 @@
   - type: Weldable
     time: 10
   - type: Airlock
+  - type: NavMapDoor
   - type: DoorBolt
   - type: AccessReader
   - type: Appearance
