@@ -22,7 +22,7 @@
   parent: ClothingNeckBase
   id: ClothingCloakIronSquadEng
   name: плащ Инженера Железного отряда
-  description: Снаружи жесткая ткань с отчётливо видными следами тления, а внутри слышится стойкий аромат машинного масла.
+  description: Снаружи жёсткая ткань с отчётливо видными следами тления, а внутри слышится стойкий аромат машинного масла.
   suffix: Shitspawn, Ebent, FractWar
   components:
     - type: Sprite
