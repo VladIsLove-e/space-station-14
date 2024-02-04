@@ -160,7 +160,7 @@
   id: ClothingHeadHelmetHardsuitIronAdmiral
   noSpawn: true
   name: шлем скафандра Lucifer
-  description: Яркий дизайн и смертоносное исполнение- в лучших традициях CryTech technology.
+  description: Яркий дизайн и смертоносное исполнение - в лучших традициях CryTech technology.
   components:
   - type: Sprite
     sprite: SS220/Clothing/Head/Hardsuits/iron_admiral.rsi
