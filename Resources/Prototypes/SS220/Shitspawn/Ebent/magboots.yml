@@ -6,10 +6,10 @@
   suffix: Shitspawn, Ebent
   components:
   - type: Sprite
-    sprite: SS220\Clothing\Shoes\Boots\magsyndieebent.rsi
+    sprite: SS220/Clothing/Shoes/Boots/magsyndieebent.rsi
     state: icon
   - type: Clothing
-    sprite: SS220\Clothing\Shoes\Boots\magsyndieebent.rsi
+    sprite: SS220/Clothing/Shoes/Boots/magsyndieebent.rsi
   - type: Magboots
     toggleAction: ActionToggleMagSyndieEbent
   - type: ClothingSpeedModifier
