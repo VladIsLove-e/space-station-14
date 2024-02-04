@@ -196,7 +196,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCE
   name: боевой скафандр Cerberus
-  description: Лёгкий и прочный скафандр обеспечит радиационную защиту и высокую мобильность.
+  description: Лёгкий и прочный скафандр, обеспечивающий радиационную защиту и высокую мобильность.
   suffix: Shitspawn, Ebent, FractWar
   components:
   - type: Sprite
