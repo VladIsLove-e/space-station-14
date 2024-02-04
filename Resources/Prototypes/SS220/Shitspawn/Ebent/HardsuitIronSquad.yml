@@ -4,7 +4,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitIronHeavy2
   name: тяжёлый сонариумовый скафандр Aid-2
-  description: Тяжёлый боевой костюм обшитый сонариумовым сплавом, используется железным отрядом в самых тяжёлых схватках.
+  description: Тяжёлый боевой костюм, обшитый сонариумовым сплавом. Используется железным отрядом в самых тяжёлых схватках.
   suffix: Shitspawn, Ebent, FractWar
   components:
   - type: Sprite
