@@ -36,7 +36,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitIronHeavy
   name: тяжёлый боевой скафандр Aid
-  description: Тяжёлый боевой костюм обеспечивающий большую защиту ценой пониженной мобильности.
+  description: Тяжёлый боевой костюм, обеспечивающий большую защиту ценой пониженной мобильности.
   suffix: Shitspawn, Ebent, FractWar
   components:
   - type: Sprite
