@@ -132,7 +132,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitIroncmo
   name: боевой скафандр Cyanide-X
-  description: Улучшенная версия скафандра Cyanide, обеспечивает ещё больше защиты и манёвренности.
+  description: Улучшенная версия скафандра Cyanide. Обеспечивает ещё больше защиты и манёвренности.
   suffix: Shitspawn, Ebent, FractWar
   components:
   - type: Sprite
