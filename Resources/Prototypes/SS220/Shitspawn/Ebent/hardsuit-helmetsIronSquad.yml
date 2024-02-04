@@ -67,7 +67,7 @@
   id: ClothingHeadHelmetHardsuitIronSoldier
   noSpawn: true
   name: шлем скафандра Zeros
-  description: Тонкий слой металического листа с мягкой обшивкой из шерсти неизвестного происхождения.
+  description: Тонкий слой металлического листа с мягкой обшивкой из шерсти неизвестного происхождения.
   components:
   - type: Sprite
     sprite: SS220/Clothing/Head/Hardsuits/iron_soldier.rsi
