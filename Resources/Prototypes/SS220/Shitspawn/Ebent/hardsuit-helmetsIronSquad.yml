@@ -36,7 +36,7 @@
   id: ClothingHeadHelmetHardsuitIronHeavy
   noSpawn: true
   name: шлем скафандра Aid
-  description: Толстый слой металла обеспечитвает активную защиту от пуль, лазеров, но не от пота.
+  description: Толстый слой металла обеспечивает активную защиту от пуль и лазеров, но не от пота.
   components:
   - type: Sprite
     sprite: SS220/Clothing/Head/Hardsuits/iron_heavy.rsi
