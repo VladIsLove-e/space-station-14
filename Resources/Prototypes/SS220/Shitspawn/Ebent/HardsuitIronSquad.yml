@@ -68,7 +68,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitIronSoldier
   name: боевой скафандр Zeros
-  description: Боевой скафандр соблюдающий баланс между мобильностью и защитой носителя.
+  description: Боевой скафандр, соблюдающий баланс между мобильностью и защитой носителя.
   suffix: Shitspawn, Ebent, FractWar
   components:
   - type: Sprite
