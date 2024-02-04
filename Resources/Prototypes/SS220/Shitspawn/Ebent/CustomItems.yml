@@ -89,7 +89,8 @@
         Slash: 19
         Heat: 6
         Structural: 15
-    litDisarmMalus: 0.6
+  - type: DisarmMalus
+    malus: 0.6
   - type: EnergySword
     colorOptions:
     - "#ffcc00"
