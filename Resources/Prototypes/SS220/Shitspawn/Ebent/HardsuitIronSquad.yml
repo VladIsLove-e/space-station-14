@@ -100,7 +100,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitIronMed
   name: боевой скафандр Cyanide
-  description: Скафандр изготовленный из полимерных титановых нанотрубок с встроенными ускорителями, обеспечивает приличную защиту и ускоренное перемещение.
+  description: Скафандр, изготовленный из полимерных титановых нанотрубок с встроенными ускорителями. Обеспечивает приличную защиту и ускоренное перемещение.
   suffix: Shitspawn, Ebent, FractWar
   components:
   - type: Sprite
