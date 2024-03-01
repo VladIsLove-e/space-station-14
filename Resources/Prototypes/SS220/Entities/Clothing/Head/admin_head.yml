@@ -233,6 +233,16 @@
     sprite: SS220/Clothing/Head/admin_head/parrot_a.rsi
 
 - type: entity
+  parent: ClothingHeadBase
+  id: admin_Head_blue_slime
+  noSpawn: true
+  components:
+  - type: Clothing
+    sprite: SS220/Clothing/Head/admin_head/blue_slime_a.rsi
+  - type: Sprite
+    sprite: SS220/Clothing/Head/admin_head/blue_slime_a.rsi
+
+- type: entity
   parent: ClothingBackpackHolding
   id: ClothingBackpack_admin_Head
   suffix: Shitspawn, AdminV
@@ -263,4 +273,5 @@
       - id: admin_Head_revenant
       - id: admin_Head_nuke
       - id: admin_Head_watermelon
+      - id: admin_Head_blue_slime
       - id: admin_Head_behonker
