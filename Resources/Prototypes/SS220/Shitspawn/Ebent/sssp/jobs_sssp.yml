@@ -102,7 +102,7 @@
     - id: ClothingUniformJumpsuitUssp
     - id: JetpackVoidFilled
     - id: RCD
-    - id: CRCDAmmo
+    - id: RCDAmmo
       amount: 3
 
 
