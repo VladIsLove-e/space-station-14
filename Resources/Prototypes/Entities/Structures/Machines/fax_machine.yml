@@ -41,6 +41,8 @@
       insertSound: /Audio/Machines/scanning.ogg
       ejectSound: /Audio/Machines/tray_eject.ogg
       whitelist:
+        tags:
+        - Folder
         components:
           - Paper
   - type: GenericVisualizer
