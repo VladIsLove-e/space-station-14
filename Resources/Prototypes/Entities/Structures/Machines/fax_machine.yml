@@ -42,7 +42,7 @@
       ejectSound: /Audio/Machines/tray_eject.ogg
       whitelist:
         tags:
-        - Folder
+          - Folder
         components:
           - Paper
   - type: GenericVisualizer
