@@ -59,6 +59,7 @@
   - type: ContainerContainer
     containers:
       Paper: !type:ContainerSlot
+      BoxFolderBase: !type:ContainerSlot
   - type: DeviceNetworkRequiresPower
   - type: DeviceNetwork
     deviceNetId: Wireless
