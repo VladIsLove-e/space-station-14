@@ -38,4 +38,4 @@
   suffix: LoneOps
   components:
   - type: CommunicationsConsole
-    title: Объявление Одиночного Ядерного оперативника Синдиката
+    title: comms-console-announcement-title-solo-nukie
