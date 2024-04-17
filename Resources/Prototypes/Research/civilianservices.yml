@@ -151,6 +151,7 @@
   cost: 10000
   recipeUnlocks:
   - AdvMopItem
+  - TrashBagAdvanced
   - MegaSprayBottle
 
 - type: technology
