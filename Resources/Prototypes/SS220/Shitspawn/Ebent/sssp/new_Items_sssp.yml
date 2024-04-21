@@ -375,7 +375,8 @@
 
 - type: entity
   id: MagazineUssp_RPK
-  name: обойма ручного пулемёта Калашникова
+  name: магазин ручного пулемёта Калашникова
+  description: Большой магазин для больших коммунистических нужд.
   parent: BaseMagazineLightRifle
   suffix: Shitspawn, Ebent, FractWar
   components:
@@ -399,3 +400,15 @@
     steps: 2
     zeroVisible: false
   - type: Appearance
+
+- type: entity
+  id: BedsheetUSSP
+  parent: BedsheetBase
+  suffix: Shitspawn, Ebent, FractWar
+  name: коммунистическое одеяло
+  description: С коммуниста по нитке и будет всем одеяло...
+  components:
+  - type: Sprite
+    state: sheetUSSP
+  - type: Clothing
+    sprite: SS220/Clothing/Neck/Bedsheets/USSP.rsi

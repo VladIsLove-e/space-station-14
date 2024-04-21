@@ -42,7 +42,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerEbentUSSPLeader
-  name: Спавнер Маршала СССП
+  name: 1Спавнер Маршала СССП
   suffix: Shitspawn, Ebent, FractWar
   components:
     - type: Sprite
@@ -125,7 +125,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerEbentUSSPEngineer
-  name: Спавнер заслуженного инженера СССП
+  name: 2Спавнер заслуженного инженера СССП
   suffix: Shitspawn, Ebent, FractWar
   components:
     - type: Sprite
@@ -205,7 +205,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerEbentUSSPCorpsman
-  name: Спавнер полевого медика СССП
+  name: 5Спавнер полевого медика СССП
   suffix: Shitspawn, Ebent, FractWar
   components:
     - type: Sprite
@@ -279,7 +279,7 @@
     shoes: ClothingShoesBootsMagUssp
     mask: ClothingMaskGasUssp
     gloves: ClothingHandsGlovesLeatherUSSPBlack
-    outerClothing: ClothingOuterHardsuitUSSPcmo
+    outerClothing: ClothingOuterHardsuitUSSPCMO
     suitstorage: OxygenTankFilled
     id: UsspPDACMO
     ears: ClothingHeadsetUSSP
@@ -289,7 +289,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerEbentUSSPCMO
-  name: Спавнер народного врача СССП
+  name: 3Спавнер народного врача СССП
   suffix: Shitspawn, Ebent, FractWar
   components:
     - type: Sprite
@@ -363,7 +363,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerEbentUSSPTrooper
-  name: Спавнер красноармейца СССП
+  name: 4Спавнер красноармейца СССП
   suffix: Shitspawn, Ebent, FractWar
   components:
     - type: Sprite
