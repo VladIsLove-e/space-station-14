@@ -217,7 +217,7 @@
     sprite: SS220/Objects/Fun/Lottery.rsi
     state: icon
   #SS220 fix_cargo end
-  product: CrateLotteryCash
+  product: LotteryCash
   cost: 5000
   category: cargoproduct-category-name-fun
   group: market
