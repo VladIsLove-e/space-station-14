@@ -24,7 +24,7 @@
   id: CrateCargoLottery5
   parent: CratePrivateSecure
   name: ящик лотерейных билетов
-  description: Больше билетов больше выйгрыш! Стань миллионером уже сегодня!
+  description: Больше билетов - больше выигрыш! Стань миллионером уже сегодня!
   suffix: 5 штук
   components:
   - type: StorageFill
