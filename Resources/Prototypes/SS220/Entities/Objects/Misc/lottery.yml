@@ -1,7 +1,7 @@
 - type: entity
   id: LotteryBase
   name: лотерея V&L
-  description: Лотеря исполняющая мечты! Стань миллионером прямо сейчас!
+  description: Лотерея, исполняющая мечты! Стань миллионером прямо сейчас!
   abstract: true
   components:
   - type: Sprite
