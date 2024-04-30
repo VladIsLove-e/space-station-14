@@ -27,14 +27,3 @@
       Cardboard: 100
   - type: StaticPrice
     price: 10
-
-- type: entity
-  id: BoxBaseAdmin
-  parent: ClothingBackpackSatchel
-  components:
-  - type: Sprite
-    sprite: SS220/Clothing/Back/Backpacks/admin_backpacks.rsi
-  - type: Storage
-    grid:
-    - 0,0,19,9
-    maxItemSize: Ginormous
