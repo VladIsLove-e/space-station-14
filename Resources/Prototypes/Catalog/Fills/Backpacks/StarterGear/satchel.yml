@@ -327,6 +327,8 @@
     grid:
     - 0,0,19,9
     maxItemSize: Ginormous
+  - type: Item
+    size: Ginormous
 #SS-220 Admin memes end
   - type: StorageFill
     contents:
