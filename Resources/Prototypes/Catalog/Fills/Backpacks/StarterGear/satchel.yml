@@ -317,9 +317,17 @@
 
 - type: entity
   noSpawn: true
-  parent: ClothingBackpackSatchelHolding
+  parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHoldingAdmin
   components:
+#SS-220 Admin memes start
+  - type: Sprite 
+    sprite: SS220/Clothing/Back/Backpacks/admin_backpacks.rsi 
+  - type: Storage
+    grid:
+    - 0,0,19,9
+    maxItemSize: Ginormous
+#SS-220 Admin memes end
   - type: StorageFill
     contents:
     - id: GasAnalyzer
