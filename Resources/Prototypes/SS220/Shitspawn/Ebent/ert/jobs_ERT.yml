@@ -51,6 +51,7 @@
       amount: 3
     - id: ClothingNeckPolarIIIMedal
       amount: 4
+    - id: EnergySwordEbentDouble
 
 - type: entity
   parent: LockerChiefMedicalOfficer

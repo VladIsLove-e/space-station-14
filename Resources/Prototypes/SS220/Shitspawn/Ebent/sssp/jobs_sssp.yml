@@ -23,6 +23,7 @@
     - id: ClothingOuterCoatUssp
     - id: ClothingNeckSSSPMedal
       amount: 6
+    - id: EnergyAxe
 
 - type: startingGear
   id: EbentUSSPLeaderGear
