@@ -45,7 +45,7 @@
   id: NTEngineerOfficer
   priority: 11
   icon:
-    sprite: vSS220/Interface/Misc/event-job-icons.rsi
+    sprite: SS220/Interface/Misc/event-job-icons.rsi
     state: NTEngineerOfficer
 
 - type: statusIcon
@@ -80,7 +80,7 @@
   id: USSPEngineerOfficer
   priority: 11
   icon:
-    sprite: /Textures/S220/Interface/Misc/event-job-icons.rsi
+    sprite: /Textures/SS220/Interface/Misc/event-job-icons.rsi
     state: USSPEngineerOfficer
 
 - type: statusIcon
