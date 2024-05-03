@@ -159,10 +159,8 @@
             Heat: 12
             Structural: 15
   - type: ItemToggleDisarmMalus
-    scale: 0.5, 0.5
     activatedDisarmMalus: 0.7
   - type: MeleeWeapon
-    scale: 0.5, 0.5
     wideAnimationRotation: -135
     attackRate: 1.5
     angle: 100
