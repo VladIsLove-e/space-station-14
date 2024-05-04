@@ -567,7 +567,7 @@
     - BorgModuleAdvancedCleaning
     - BorgModuleMining
     - BorgModuleGrapplingGun
-    - BorgModuleProtoKineticAccelerator
+    - BorgModuleProtoKineticAccelerator #SS220 Borg Modules
     - BorgModuleAdvancedTool
     - BorgModuleGPS
     - BorgModuleRCD
