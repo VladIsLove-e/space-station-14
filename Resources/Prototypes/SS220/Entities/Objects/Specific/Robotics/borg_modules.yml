@@ -11,6 +11,6 @@
     - state: icon-ProtoKinetic-gun
   - type: ItemBorgModule
     items:
-    - JetpackBlackBorgModuleFilled
     - WeaponProtoKineticAccelerator
+    - JetpackBorgModule
     - HandheldGPSBasic
