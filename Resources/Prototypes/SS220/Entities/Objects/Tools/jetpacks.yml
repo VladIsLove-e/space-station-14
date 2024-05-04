@@ -3,7 +3,7 @@
   id: JetpackBorgModule
   parent: JetpackBlack
   name: модуль борга- джетпак
-  description: Самозаполняющийся джетпак прикреплённый к боргу особым креплением. Мечта утилизаторов.
+  description: Самозаполняющийся реактивный ранец, прикреплённый к боргу особым креплением. Мечта утилизаторов.
   components:
   - type: GasTank
     outputPressure: 0
