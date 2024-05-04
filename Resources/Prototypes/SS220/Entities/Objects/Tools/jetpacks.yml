@@ -2,7 +2,7 @@
 - type: entity
   id: JetpackBorgModule
   parent: JetpackBlack
-  name: модуль борга- джетпак
+  name: модуль борга c реактивным ранцем
   description: Самозаполняющийся реактивный ранец, прикреплённый к боргу особым креплением. Мечта утилизаторов.
   components:
   - type: GasTank
