@@ -106,6 +106,8 @@
       types:
         Blunt: 8
         Piercing: 2 # I guess you can stab it into them?
+    soundHit:
+      collection: MetalThud
   - type: Item
     sprite: Objects/Tools/Hydroponics/spade.rsi
   - type: Shovel
@@ -136,4 +138,6 @@
       components:
         - Produce
         - Seed
+  - type: UseDelay #SS220-BagsFix
+    delay: 0.5
   - type: Dumpable
